@@ -1,0 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 698fr 642fr;
+  grid-template-rows: min-content 1fr;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .grid-container {
+    border-top: 1px solid $content-color-theme-light;
+  }
+}

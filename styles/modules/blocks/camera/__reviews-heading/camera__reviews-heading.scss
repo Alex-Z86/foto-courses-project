@@ -1,0 +1,9 @@
+.camera__reviews-heading {
+  margin-bottom: 0;
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .camera__reviews-heading {
+    padding: 0;
+  }
+}

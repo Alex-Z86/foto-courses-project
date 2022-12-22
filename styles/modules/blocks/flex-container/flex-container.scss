@@ -1,0 +1,29 @@
+.flex-container {
+  margin: 0;
+  padding: 100px 4px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .flex-container {
+    padding: 50px 4px 0;
+  }
+}
+
+@media (max-width: $breakpoint-middle) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 50px 0 0;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .flex-container {
+    padding: 66px 0 0;
+  }
+}

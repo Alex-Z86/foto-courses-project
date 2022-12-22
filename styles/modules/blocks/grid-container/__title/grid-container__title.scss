@@ -1,0 +1,11 @@
+.grid-container__title {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .grid-container__title {
+    grid-column: unset;
+    grid-row: unset;
+  }
+}

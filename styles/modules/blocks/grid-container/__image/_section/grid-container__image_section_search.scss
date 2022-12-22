@@ -1,0 +1,13 @@
+.grid-container__image_section_search {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 648px;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .grid-container__image_section_search {
+    grid-column: unset;
+    grid-row: unset;
+    max-width: 860px;
+  }
+}

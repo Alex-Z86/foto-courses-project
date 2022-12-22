@@ -1,0 +1,24 @@
+.entry__title {
+  margin: 0 0 120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 1;
+  max-width: 685px;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .entry__title {
+    margin: 0 0 190px;
+    font-size: 100px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .entry__title {
+    margin: 0 0 200px;
+    font-size: 48px;
+    line-height: 1.04;
+    max-width: 300px;
+  }
+}

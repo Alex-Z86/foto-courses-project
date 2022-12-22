@@ -1,0 +1,19 @@
+.header__logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__logo {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .header__logo {
+    width: 30px;
+    height: 30px;
+  }
+}

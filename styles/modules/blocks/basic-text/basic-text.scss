@@ -1,0 +1,20 @@
+.basic-text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .basic-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .basic-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}

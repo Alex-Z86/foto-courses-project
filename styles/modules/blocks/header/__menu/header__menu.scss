@@ -1,0 +1,16 @@
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__menu {
+    display: none;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .header__menu {
+    flex-direction: column;
+  }
+}

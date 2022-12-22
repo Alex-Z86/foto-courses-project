@@ -1,0 +1,19 @@
+.section-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .section-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .section-title {
+    font-size: 30px;
+    line-height: 1.27;
+  }
+}

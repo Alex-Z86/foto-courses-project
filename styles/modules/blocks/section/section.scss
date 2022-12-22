@@ -1,0 +1,15 @@
+.section {
+  padding: $section-padding;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .section {
+    padding: $section-padding-tablet;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .section {
+    padding: $section-padding-mobile;
+  }
+}

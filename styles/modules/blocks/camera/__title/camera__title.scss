@@ -1,0 +1,22 @@
+.camera__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 122px;
+  line-height: 1;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .camera__title {
+    font-size: 60px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .camera__title {
+    font-size: 48px;
+    line-height: 1.17;
+    max-width: 290px;
+  }
+}
