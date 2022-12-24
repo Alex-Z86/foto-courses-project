@@ -1,0 +1,7 @@
+@media (max-width: $breakpoint-middle) {
+  .grid-container__image_section_camera {
+    aspect-ratio: 688 / 656;
+    object-fit: cover;
+    object-position: top;
+  }
+}

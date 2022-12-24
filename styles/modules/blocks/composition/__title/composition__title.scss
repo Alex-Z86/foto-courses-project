@@ -1,0 +1,10 @@
+.composition__title {
+  margin: 0 0 100px 2px;
+  max-width: 403px;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .composition__title {
+    margin: 0 0 30px 2px;
+  }
+}

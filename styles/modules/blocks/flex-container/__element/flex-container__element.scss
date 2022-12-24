@@ -1,0 +1,22 @@
+.flex-container__element {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .flex-container__element {
+    padding-bottom: 60px;
+    border-bottom: 1px solid $content-color-theme-dark;
+  }
+
+  .flex-container__element:last-of-type {
+    padding-bottom: 0;
+    border: none;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .flex-container__element {
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.grid-container__link {
+  margin: 0 0 0 2px;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: flex-end;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .grid-container__link {
+    grid-column: unset;
+    grid-row: unset;
+    align-self: inherit;
+  }
+}

@@ -1,0 +1,27 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 49px;
+  border: 2px solid $content-color-theme-light;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  background-color: $back-color-light;
+  color: $font-color-theme-light;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  font-weight: 600;
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .link {
+    width: 169px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 2;
+  }
+}

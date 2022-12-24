@@ -1,0 +1,22 @@
+.composition__subtitle {
+  margin: 0 0 20px 0;
+  max-width: 400px;
+}
+
+.composition__subtitle:last-of-type {
+  margin: 0;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .composition__subtitle {
+    margin: 0 0 10px 0;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .composition__subtitle {
+    margin: 0 0 36px 0;
+    max-width: 650px;
+  }
+}

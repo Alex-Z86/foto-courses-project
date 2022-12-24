@@ -1,0 +1,38 @@
+.entry__title {
+  margin: 0 0 0 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 1;
+  max-width: 685px;
+}
+
+.entry__title:last-of-type {
+  margin: 0 0 120px 2px;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .entry__title {
+    font-size: 100px;
+  }
+
+  .entry__title:first-of-type {
+    margin: 0 0 10px 2px;
+  }
+
+  .entry__title:last-of-type {
+    margin: 0 0 190px 2px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .entry__title {
+    font-size: 48px;
+    line-height: 1.04;
+    max-width: 300px;
+  }
+
+  .entry__title:last-of-type {
+    margin: 0 0 200px 2px;
+  }
+}

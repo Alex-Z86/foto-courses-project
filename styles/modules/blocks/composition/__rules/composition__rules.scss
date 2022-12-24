@@ -1,0 +1,32 @@
+.composition__rules {
+  max-width: 291px;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .composition__rules {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: $breakpoint-middle) {
+  .composition__rules {
+    max-width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid $content-color-theme-light;
+  }
+
+  .composition__rules:last-of-type {
+    padding: 30px 0 0;
+    border-bottom: none;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .composition__rules {
+    padding: 14px 0;
+  }
+
+  .composition__rules:last-of-type {
+    padding: 14px 0 0;
+  }
+}

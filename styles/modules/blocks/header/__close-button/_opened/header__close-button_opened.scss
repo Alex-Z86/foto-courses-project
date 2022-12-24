@@ -1,0 +1,9 @@
+.header__close-button_opened {
+  display: none;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__close-button_opened {
+    display: flex;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__label {
+  margin: 0 0 0 2px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $font-color-theme-dark;
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .footer__label {
+    margin: 6px 0 0 2px;
+    font-size: 12px;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,25 @@
+.flex-container_section_camera {
+  padding: 180px 0 0 2px;
+  justify-content: flex-start;
+  gap: 172px;
+}
+
+@media (max-width: $breakpoint-wide) {
+  .flex-container_section_camera {
+    padding: 50px 0 0;
+    gap: 11%;
+  }
+}
+
+@media (max-width: $breakpoint-middle) {
+  .flex-container_section_camera {
+    padding: 120px 0 0 2px;
+    gap: 0;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .flex-container_section_camera {
+    padding-top: 30px;
+  }
+}

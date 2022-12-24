@@ -1,0 +1,15 @@
+.header__logo_closed {
+  display: flex;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__logo_closed {
+    display: none;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .header__logo_closed {
+    display: flex;
+  }
+}

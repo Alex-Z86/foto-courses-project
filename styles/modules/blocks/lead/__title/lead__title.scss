@@ -1,0 +1,29 @@
+.lead__title {
+  margin: 0 0 60px;
+  max-width: 624px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 1.1;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .lead__title {
+    font-size: 52px;
+    margin: 0 0 20px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: $breakpoint-middle) {
+  .lead__title {
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .lead__title {
+    font-size: 47px;
+    line-height: 1.19;
+  }
+}

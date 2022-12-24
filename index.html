@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Приложение для записи на курсы по фотографии"
+    />
+    <meta
+      name="keywords"
+      content="фотография, научиться, настройка, съемка, обработка, запись"
+    />
+    <meta name="author" content="Александра Зайцева" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Курс по фотографии</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img class="header__logo" src="./images/logo.svg" alt="Логотип." />
+        <nav class="header__menu">
+          <a class="header__link" href="#composition">Композиция</a>
+          <a class="header__link" href="#camera">Камера</a>
+          <a class="header__link" href="#search">Поиск заказов</a>
+        </nav>
+        <button
+          class="header__open-button"
+          type="button"
+          aria-label="Открыть меню"
+        ></button>
+        <button
+          class="header__close-button"
+          type="button"
+          aria-label="Закрыть меню"
+        ></button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="lead">
+        <div class="section">
+          <div class="grid-container grid-container_section_lead">
+            <h1 class="lead__title">Курс по фотографии</h1>
+            <img
+              class="grid-container__image"
+              src="./images/lead-fog.jpg"
+              alt="Лес в тумане."
+            />
+            <p class="grid-container__subtitle lead__subtitle">
+              Фотография в&nbsp;природных условиях, уроки по&nbsp;композиции
+              и&nbsp;по&nbsp;пользованию камерой.
+            </p>
+            <a
+              class="grid-container__link basic-text link"
+              href="#"
+              target="_blank"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="composition" id="composition">
+        <div class="section section_width_narrow">
+          <div class="grid-container">
+            <div class="grid-container__title">
+              <p class="grid-container__heading basic-text">Композиция</p>
+              <h2 class="section-title composition__title">
+                Изучите композицию
+              </h2>
+            </div>
+            <img
+              class="grid-container__image grid-container__image_section_composition"
+              src="./images/composition-road.jpg"
+              alt="Дорога в лесу."
+            />
+            <div class="grid-container__subtitle">
+              <p class="basic-text composition__subtitle">
+                Вы&nbsp;изучите гармоничное размещение всех элементов
+                изображения&nbsp;на
+                <span class="composition__bold-text">снимке</span>.
+              </p>
+              <p class="basic-text composition__subtitle">
+                Изучите композицию интуитивную и&nbsp;какие-то определённые
+                законы.
+              </p>
+            </div>
+            <a
+              class="grid-container__link basic-text link"
+              href="#"
+              target="_blank"
+              >Записаться!</a
+            >
+          </div>
+          <ul class="flex-container">
+            <li class="composition__rules basic-text">
+              Правило третей, при котором нужно распологать объекты на
+              пересечениях.
+            </li>
+            <li class="composition__rules basic-text">
+              Простота: убирай всё лишнее и кадрируй!
+            </li>
+            <li class="composition__rules basic-text">
+              Равновесие: уравновесь пятна объекта и фона.
+            </li>
+            <li class="composition__rules basic-text">
+              3D глубина кадра: расположи объект позади и перед другими
+              предметами.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="camera" id="camera">
+        <div class="section section_width_narrow">
+          <div class="grid-container grid-container_theme_dark">
+            <div class="grid-container__title">
+              <p
+                class="grid-container__heading basic-text grid-container__heading_section_camera"
+              >
+                Камера
+              </p>
+              <h2 class="camera__title">Настройка Съемка Обработка</h2>
+            </div>
+            <img
+              class="grid-container__image grid-container__image_section_camera"
+              src="./images/camera-wood.jpg"
+              alt="Лес."
+            />
+            <p class="camera__reviews-heading grid-container__link basic-text">
+              Отзывы про часть о камерах:
+            </p>
+          </div>
+          <ul class="flex-container flex-container_section_camera">
+            <li class="flex-container__element">
+              <p class="camera__review">
+                на этом курсе я научился пользоватся камерой, как настоящий
+                профессионал!
+              </p>
+              <p class="basic-text camera__reviewer">Питер, водитель.</p>
+              <p class="camera__copyright">@piter123</p>
+            </li>
+            <li class="flex-container__element">
+              <p class="camera__review">
+                супер крутой курс! на&nbsp;части про фотики я&nbsp;стал
+                разбираться в предназначении кнопок
+              </p>
+              <p
+                class="basic-text camera__reviewer camera__reviewer_place_sportsman"
+              >
+                Джон, спортсмен.
+              </p>
+              <p class="camera__copyright camera__copyright_place_sportsman">
+                @john_sport
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="search" id="search">
+        <div class="section section_width_narrow">
+          <div class="grid-container">
+            <div class="grid-container__title">
+              <p class="grid-container__heading basic-text">Поиск заказов</p>
+              <h2 class="section-title search__title">
+                Научим находить заказы!
+              </h2>
+            </div>
+            <img
+              class="grid-container__image grid-container__image_section_search"
+              src="./images/search-tree.jpg"
+              alt="Вид на дерево снизу вверх."
+            />
+            <p class="basic-text search__subtitle">
+              Мы&nbsp;научим вас искать заказы на&nbsp;всяких фриланс биржах,
+              а&nbsp;когда вы&nbsp;сделаете крутое портфолио, мы&nbsp;поможем
+              найти постоянную работу.
+            </p>
+            <a class="search__link basic-text link" href="#" target="_blank"
+              >Записаться!</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="entry">
+        <div class="section section_place_entry section_width_narrow">
+          <img class="entry__image" src="./images/arrow.svg" alt="Стрелка." />
+          <div class="entry__content">
+            <h2 class="entry__title">Записаться!</h2>
+            <h2 class="entry__title">Сейчас!</h2>
+            <form class="form" name="entry-form">
+              <input
+                class="form__input"
+                type="email"
+                name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.(ru|com)$"
+                placeholder="Ваша почта"
+                aria-label="Поле для ввода электронной почты"
+                required
+              />
+              <button class="form__button" type="submit">Записаться!</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section">
+        <p class="footer__label">2021 Photo-lessons.</p>
+      </div>
+    </footer>
+
+    <script src="./styles/scripts/header.js"></script>
+    <script src="./styles/scripts/form.js"></script>
+  </body>
+</html>

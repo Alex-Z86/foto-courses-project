@@ -1,0 +1,13 @@
+.entry__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .entry__content {
+    padding-top: 20px;
+    border-top: 1px solid $content-color-theme-dark;
+    width: 100%;
+  }
+}

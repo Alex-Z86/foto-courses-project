@@ -1,0 +1,21 @@
+.lead__subtitle {
+  max-width: 469px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .lead__subtitle {
+    font-size: 18px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .lead__subtitle {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}

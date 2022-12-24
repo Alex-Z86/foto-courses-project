@@ -1,0 +1,31 @@
+.camera__review {
+  margin: 0 0 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 1;
+  max-width: 526px;
+}
+
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
+  .camera__review {
+    margin: 0 0 40px;
+    font-size: 28px;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: $breakpoint-middle) {
+  .camera__review {
+    margin: 0;
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .camera__review {
+    padding: 30px 0 30px 2px;
+    font-size: 24px;
+    line-height: 1.08;
+  }
+}

@@ -1,0 +1,15 @@
+.camera__copyright {
+  margin: 10px 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .camera__copyright {
+    margin: 6px 0 0;
+    font-size: 12px;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,22 @@
+.header__container {
+  margin: 0 auto;
+  padding: 22px 50px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__container {
+    padding: 24px 40px;
+  }
+}
+
+@media (max-width: $breakpoint-narrow) {
+  .header__container {
+    padding: 20px;
+    align-items: flex-start;
+  }
+}
