@@ -5,8 +5,6 @@ const entryButton = entryForm.querySelector(".form__button");
 function check() {
   if (!emailInput.checkValidity()) {
     entryButton.disabled;
-  } else {
-    entryButton.textContent = "Спасибо!";
   }
 }
 
@@ -14,7 +12,6 @@ emailInput.addEventListener("input", check);
 
 function handleEntryFormSubmit(evt) {
   evt.preventDefault();
-
-  evt.target.reset();
+  entryButton.textContent = "Спасибо!";
 }
-entryButton.addEventListener("submit", handleEntryFormSubmit);
+entryForm.addEventListener("submit", handleEntryFormSubmit);
