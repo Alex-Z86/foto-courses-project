@@ -1,14 +1,7 @@
 .entry__content {
-  padding-bottom: -14px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-@media (max-width: $breakpoint-middle) {
-  .entry__content {
-    padding-bottom: 0;
-  }
 }
 
 @media (max-width: $breakpoint-narrow) {

@@ -9,5 +9,8 @@
     grid-column: unset;
     grid-row: unset;
     max-width: 860px;
+    aspect-ratio: 688 / 360;
+    object-fit: cover;
+    object-position: bottom;
   }
 }

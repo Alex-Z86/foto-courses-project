@@ -1,5 +1,5 @@
 .flex-container_section_camera {
-  padding: 180px 0 0;
+  padding: 180px 0 0 2px;
   justify-content: flex-start;
   gap: 172px;
 }
@@ -13,13 +13,13 @@
 
 @media (max-width: $breakpoint-middle) {
   .flex-container_section_camera {
-    padding: 120px 0 0;
+    padding: 120px 0 0 2px;
     gap: 0;
   }
 }
 
 @media (max-width: $breakpoint-narrow) {
   .flex-container_section_camera {
-    padding: 0;
+    padding-top: 30px;
   }
 }

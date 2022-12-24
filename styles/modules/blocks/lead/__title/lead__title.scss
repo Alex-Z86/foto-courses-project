@@ -1,12 +1,13 @@
 .lead__title {
   margin: 0 0 60px;
+  max-width: 624px;
   font-style: normal;
   font-weight: 400;
   font-size: 100px;
   line-height: 1.1;
 }
 
-@media (max-width: $breakpoint-wide) {
+@media (min-width: 941px) and (max-width: $breakpoint-wide) {
   .lead__title {
     font-size: 52px;
     margin: 0 0 20px;
@@ -16,7 +17,7 @@
 
 @media (max-width: $breakpoint-middle) {
   .lead__title {
-    margin: 0 0 0 -2px;
+    margin: 0 0 30px;
   }
 }
 
@@ -24,6 +25,5 @@
   .lead__title {
     font-size: 47px;
     line-height: 1.19;
-    margin: -26px 0 0 -2px;
   }
 }

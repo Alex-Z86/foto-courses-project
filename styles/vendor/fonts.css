@@ -1,13 +1,13 @@
 @font-face {
-    src: url(../../Roboto/Roboto.ttf) format('woff2'),
-         url(../../Roboto/Roboto.ttf) format('woff');
-    font-family: 'Roboto';
-    font-weight: normal;
+  src: url(../../fonts/Roboto/Roboto.ttf) format("woff2"),
+    url(../../fonts/Roboto/Roboto.ttf) format("woff");
+  font-family: "Roboto";
+  font-weight: normal;
 }
 
 @font-face {
-    src: url(../Inter/Inter-Regular.woff2) format('woff2'),
-         url(../Inter/Inter-Regular.woff) format('woff');
-    font-family: 'Inter';
-    font-weight: normal;
+  src: url(../../fonts/Inter/Inter-Regular.woff2) format("woff2"),
+    url(../../fonts/Inter/Inter-Regular.woff) format("woff");
+  font-family: "Inter";
+  font-weight: normal;
 }

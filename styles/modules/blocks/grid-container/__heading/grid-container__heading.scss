@@ -1,23 +1,23 @@
 .grid-container__heading {
-  margin: 0 0 50px 4px;
+  margin: 0 0 50px 6px;
   text-transform: uppercase;
 }
 
 @media (min-width: 941px) and (max-width: $breakpoint-wide) {
   .grid-container__heading {
-    margin: 0 0 20px 4px;
+    margin: 0 0 20px 6px;
   }
 }
 
 @media (max-width: $breakpoint-middle) {
   .grid-container__heading {
-    margin: 0 0 40px 4px;
+    margin: 0 0 40px 6px;
   }
 }
 
 @media (max-width: $breakpoint-narrow) {
   .grid-container__heading {
-    margin: 0 0 30px 2px;
+    margin: 0 0 30px 4px;
     padding: 20px 0 0;
     line-height: 1.43;
   }

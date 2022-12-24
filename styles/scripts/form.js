@@ -2,9 +2,15 @@ const entryForm = document.forms["entry-form"];
 const emailInput = entryForm.querySelector(".form__input");
 const entryButton = entryForm.querySelector(".form__button");
 
-emailInput.addEventListener("change", function () {
-  entryButton.textContent = "Спасибо!";
-});
+function check() {
+  if (!emailInput.checkValidity()) {
+    entryButton.disabled;
+  } else {
+    entryButton.textContent = "Спасибо!";
+  }
+}
+
+emailInput.addEventListener("input", check);
 
 function handleEntryFormSubmit(evt) {
   evt.preventDefault();

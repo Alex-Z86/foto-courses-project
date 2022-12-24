@@ -6,6 +6,7 @@
 @import "./modules/blocks/page/page.scss";
 
 @import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__container/header__container.scss";
 @import "./modules/blocks/header/__logo/header__logo.scss";
 @import "./modules/blocks/header/__logo/_closed/header__logo_closed.scss";
 @import "./modules/blocks/header/__menu/header__menu.scss";
@@ -21,6 +22,7 @@
 @import "./modules/blocks/content/content.scss";
 @import "./modules/blocks/section/section.scss";
 @import "./modules/blocks/section/_place/section_place_entry.scss";
+@import "./modules/blocks/section/_width/section_width_narrow.scss";
 
 @import "./modules/blocks/basic-text/basic-text.scss";
 
@@ -28,8 +30,12 @@
 @import "./modules/blocks/grid-container/_theme/grid-container_theme_dark.scss";
 @import "./modules/blocks/grid-container/_section/grid-container_section_lead.scss";
 @import "./modules/blocks/grid-container/__heading/grid-container__heading.scss";
+@import "./modules/blocks/grid-container/__heading/_section/grid-container__heading_section_camera.scss";
 @import "./modules/blocks/grid-container/__title/grid-container__title.scss";
 @import "./modules/blocks/grid-container/__image/grid-container__image.scss";
+@import "./modules/blocks/grid-container/__image/_section/grid-container__image_section_composition.scss";
+@import "./modules/blocks/grid-container/__image/_section/grid-container__image_section_camera.scss";
+
 @import "./modules/blocks/grid-container/__image/_section/grid-container__image_section_search.scss";
 @import "./modules/blocks/grid-container/__subtitle/grid-container__subtitle.scss";
 @import "./modules/blocks/grid-container/__link/grid-container__link.scss";
@@ -56,7 +62,9 @@
 @import "./modules/blocks/camera/__reviews-heading/camera__reviews-heading.scss";
 @import "./modules/blocks/camera/__review/camera__review.scss";
 @import "./modules/blocks/camera/__reviewer/camera__reviewer.scss";
+@import "./modules/blocks/camera/__reviewer/_place/camera__reviewer_place_sportsman.scss";
 @import "./modules/blocks/camera/__copyright/camera__copyright.scss";
+@import "./modules/blocks/camera/__copyright/_place/camera__copyright_place_sportsman.scss";
 
 @import "./modules/blocks/search/search.scss";
 @import "./modules/blocks/search/__title/search__title.scss";

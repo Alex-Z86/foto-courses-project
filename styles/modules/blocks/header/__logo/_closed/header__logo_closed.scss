@@ -1,5 +1,11 @@
 .header__logo_closed {
-  display: none;
+  display: flex;
+}
+
+@media (max-width: $breakpoint-middle) {
+  .header__logo_closed {
+    display: none;
+  }
 }
 
 @media (max-width: $breakpoint-narrow) {

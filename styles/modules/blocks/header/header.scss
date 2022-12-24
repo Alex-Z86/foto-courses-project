@@ -1,20 +1,4 @@
 .header {
-  padding: 22px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: $back-color-r;
-}
-
-@media (max-width: $breakpoint-middle) {
-  .header {
-    padding: 24px 40px;
-  }
-}
-
-@media (max-width: $breakpoint-narrow) {
-  .header {
-    padding: 20px;
-    align-items: flex-start;
-  }
+  background-size: 100%;
 }
